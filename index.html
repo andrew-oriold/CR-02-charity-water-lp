@@ -2,11 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <title>charity: water</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Add your HTML here -->
+    <!-- Navigation bar with buttons and dropdowns -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <!-- Logo -->
+            <a href="/" class="nav-logo">
+                <img src="img/cw_logo-2.png" alt="charity: water logo" class="nav-logo-img">
+            </a>
+            <!-- Navigation links -->
+            <ul class="nav-links">
+                <li class="nav-dropdown">
+                    <button class="nav-dropbtn">About</button>
+                    <div class="nav-dropdown-content">
+                        <a href="#">Our Story</a>
+                        <a href="#">Financials</a>
+                        <a href="#">Team</a>
+                        <a href="#">Careers</a>
+                    </div>
+                </li>
+                <li class="nav-dropdown">
+                    <button class="nav-dropbtn">Our Work</button>
+                    <div class="nav-dropdown-content">
+                        <a href="#">How We Work</a>
+                        <a href="#">Where We Work</a>
+                        <a href="#">Impact</a>
+                    </div>
+                </li>
+                <li><a href="#">Stories</a></li>
+                <li><a href="#">The Spring</a></li>
+            </ul>
+            <!-- Sign In link and Donate button on the right -->
+            <div style="display: flex; align-items: center; margin-left: auto;">
+                <!-- Sign In link -->
+                <a href="#" class="nav-signin-link">Sign In</a>
+                <!-- Vertical bar separator -->
+                <span class="nav-separator">|</span>
+                <!-- Donate button (smaller) -->
+                <a href="#" class="nav-donate-btn">GIVE 💧</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CTA Banner Section -->
+    <section class="cta-banner">
+        <!-- 
+          Vertically center the CTA text by wrapping it in a container.
+          The CSS will use flex to center this container.
+        -->
+        <div class="cta-banner-inner">
+            <h1>They have TikTok, but not clean water. Let’s change that.</h1>
+            <p>
+                Millions scroll social media every day—many without access to something as basic as clean drinking water. Be part of the reason that changes. 100% of your donation funds clean water projects, and we show you the impact.
+            </p>
+            <a href="#" class="cta-button">Donate Now - Start with just $10</a>
+        </div>
+    </section>
+
+    <!-- Info Section (Story) -->
+    <section class="info-section">
+        <div class="info-text">
+            <h3>Why Give to charity: water?</h3>
+            <p>
+                You want your voice to matter and your money to have purpose. At charity: water, we give 100% of public donations to clean water projects and show you the proof of your impact. One $10 donation can spark a global change.
+            </p>
+        </div>
+    </section>
+
+    <!-- Adoption Section (CTA) -->
+    <section class="adoption-section">
+        <h3>Clean Water Changes Everything</h3>
+        <p>
+            When you give, you help bring clean and safe drinking water to people in need. Clean water means education, income, and health—especially for women and kids. Every donation is a new beginning for a community!
+        </p>
+        <a href="#" class="adoption-link">See How Your Gift Helps</a>
+    </section>
+
+    <!-- Impact Story Section -->
+    <section class="impact-story-section" style="max-width:800px;">
+        <!-- 
+          This section shares a real-world story.
+          It uses two images side by side and a short paragraph.
+        -->
+        <div class="impact-story-inner">
+            <h3>Real Impact: Meet Tarik</h3>
+            <div class="impact-story-content" style="text-align:center;">
+                <!-- Put both images in a container and use inline-block to keep them side by side -->
+                <span style="display: inline-block; margin-right: 24px;">
+                  <img src="img/tarik.jpg" alt="Tarik's Story" class="impact-story-img" style="display:inline-block; vertical-align:middle;">
+                </span>
+                <span style="display: inline-block;">
+                  <img src="img/tarik-2.jpg" alt="Tarik smiling" class="impact-story-img" style="display:inline-block; vertical-align:middle;">
+                </span>
+                <!-- Short paragraph about the impact -->
+                <p>
+                    Tarik is a girl from a water-scarce village in Ethiopia. She used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well nearby. Tarik can go to school and spend more time with her friends! Access to safe water can transform lives and dreams.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section class="donation-section">
+        <!-- 
+          This section encourages users to donate.
+          The button below is styled to stand out.
+        -->
+        <div class="donation-inner">
+            <h3>Ready to Make a Difference?</h3>
+            <p>
+                Your donation brings clean water to communities in need. Every dollar counts!
+            </p>
+            <!-- Bold Donate Now button -->
+            <a href="#" class="donate-now-btn">Donate Now</a>
+        </div>
+    </section>
+
+    <!-- Simple footer -->
+    <footer class="site-footer">
+        <p>Contact us: <a href="mailto:info@charitywater.org">info@charitywater.org</a> | (646) 688-2323</p>
+    </footer>
 </body>
 </html>
