@@ -530,9 +530,9 @@ a {
     transform 0.2s;
 }
 
-/* When hovered, links move up slightly and turn blue */
+/* When hovered, links move up slightly */
 a:hover {
-  color: #231F20; /* Brighter blue */
+  color: #231F20; 
   transform: translateY(-2px); /* Move up a little */
 }
 
