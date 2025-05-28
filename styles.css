@@ -14,7 +14,7 @@ body {
   font-family: 'Avenir', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e6f0fa;
+  background-color: #f7f3e8; /* Changed from light blue to light cream */
   color: #003366; /* Set body text color */
 }
 
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6,
 .info-section {
   max-width: 800px;
   margin: 40px auto 0 auto;
-  background-color: #f7f3e8; /* Light cream */
+  background-color: #fff; /* Changed from light blue to white */
   border-radius: 10px;
   padding: 32px 20px;
   display: table;
@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6,
 .adoption-section {
   max-width: 800px;
   margin: 40px auto 0 auto;
-  background-color: #f7f3e8; /* Light cream */
+  background-color: #fff; /* Changed from light blue to white */
   border-radius: 10px;
   padding: 28px 18px;
   text-align: center;
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6,
 .impact-story-section {
   max-width: 1000px;
   margin: 40px auto 0 auto;
-  background-color: #f7f3e8;
+  background-color: #fff; /* Changed from light blue to white */
   border-radius: 10px;
   padding: 40px 32px;
   /* Remove table layout for simplicity */
@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6,
 .donation-section {
   max-width: 800px;
   margin: 40px auto 0 auto;
-  background-color: #f7f3e8; /* Light cream */
+  background-color: #fff; /* Changed from light cream to light blue */
   border-radius: 10px;
   padding: 28px 18px;
   text-align: center;
